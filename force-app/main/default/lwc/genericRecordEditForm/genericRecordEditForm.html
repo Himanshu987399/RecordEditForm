@@ -1,0 +1,59 @@
+<template>
+	<template if:true={isLoading}>
+		<lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+	</template>
+	<template if:true={isError}>
+		<div class="slds-box slds-grid slds-gutters slds-align_absolute-center">
+			<div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+				<span class="slds-assistive-text">error</span>
+				<lightning-icon class="white-icon" icon-name="utility:error" alternative-text="Error" size="x-small">
+				</lightning-icon>
+				<h2 class="slds-m-left_xx-small">{errorMessage}</h2>
+			</div>
+		</div>
+	</template>
+	<template if:false={isError}>
+		<article class="slds-card">
+			<template if:true={showHeader}>
+				<div class="slds-modal__header">
+					<h3 id="modal-heading-01" class="slds-modal__title slds-hyphenate" style="font-size: 1.17rem;">
+						<b>{headerOfRecordForm}</b>
+					</h3>
+				</div>
+			</template>
+			<div class="slds-card__body slds-card__body_inner">
+				<lightning-record-edit-form id="recordViewForm" record-id={recordId} object-api-name={objectApiName}
+					onload={handleLoad} onsuccess={handleSuccess} onerror={handleError}>
+					<lightning-messages></lightning-messages>
+					<template if:true={viewOnly}>
+						<div class="slds-grid slds-wrap slds-gutters">
+							<template for:each={displayData} for:item="eachField">
+								<div key={eachField.apiName} class="slds-col slds-size_1-of-2">
+									<lightning-output-field key={eachField.apiName} field-name={eachField.apiName}
+										readonly={viewOnly} required={eachField.isRequired}></lightning-output-field>
+								</div>
+							</template>
+						</div>
+					</template>
+					<template if:false={viewOnly}>
+						<div class="slds-grid slds-wrap slds-gutters">
+							<template for:each={displayData} for:item="eachField">
+								<div key={eachField.apiName} class="slds-col slds-size_1-of-2">
+									<lightning-input-field key={eachField.apiName} field-name={eachField.apiName}
+										required={eachField.isRequired}></lightning-input-field>
+								</div>
+							</template>
+						</div>
+					</template>
+				</lightning-record-edit-form>
+			</div>
+			<template if:true={showFooter}>
+				<footer class="slds-card__footer">
+					<lightning-button variant="brand" label="Submit" title="Submit" onclick={handleClick}
+						disabled={isDisable}>
+					</lightning-button>
+				</footer>
+			</template>
+		</article>
+	</template>
+</template>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>GenericRecordEditFormController</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>For_view_only_record_record_id_is_required</members>
+		<members>Kindly_choose_the_field_set_name</members>
+		<members>Please_choose_either_the_field_set_presence_or_provide_the_API_names_for_the_fie</members>
+		<members>Please_choose_the_checkbox_for_the_field_set</members>
+		<members>Provide_api_name_or_field_set</members>
+		<members>Successfully_submit</members>
+		<members>To_clone_a_record_the_record_ID_is_required</members>
+		<members>To_edit_a_record_the_record_ID_is_required</members>
+		<members>You_can_either_view_the_record_or_clone_it</members>
+		<members>You_have_the_choice_to_either_edit_the_record_or_clone_it</members>
+		<members>You_have_the_option_to_either_edit_the_record_or_view_it</members>
+		<members>provide_api_name</members>
+		<name>CustomLabel</name>
+	</types>
+	<types>
+		<members>genericRecordEditForm</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>58.0</version>
+</Package>

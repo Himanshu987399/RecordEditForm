@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>For_view_only_record_record_id_is_required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>&apos;For view only record, record id is required.&apos;</shortDescription>
+        <value>&apos;For view only record, record id is required.&apos;</value>
+    </labels>
+    <labels>
+        <fullName>Kindly_choose_the_field_set_name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Kindly choose the field set name.</shortDescription>
+        <value>Kindly choose the field set name.</value>
+    </labels>
+    <labels>
+        <fullName>Please_choose_either_the_field_set_presence_or_provide_the_API_names_for_the_fie</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please choose either the field set presence or provide the API names for the fie</shortDescription>
+        <value>Please choose either the field set presence or provide the API names for the fields.</value>
+    </labels>
+    <labels>
+        <fullName>Please_choose_the_checkbox_for_the_field_set</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please choose the checkbox for the field set.</shortDescription>
+        <value>Please choose the checkbox for the field set.</value>
+    </labels>
+    <labels>
+        <fullName>Provide_api_name_or_field_set</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Provide api name or field set</shortDescription>
+        <value>Please provide either the name of the field set or the API names of the fields.</value>
+    </labels>
+    <labels>
+        <fullName>Successfully_submit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Successfully submit</shortDescription>
+        <value>Successfully submit</value>
+    </labels>
+    <labels>
+        <fullName>To_clone_a_record_the_record_ID_is_required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To clone a record, the record ID is required.</shortDescription>
+        <value>To clone a record, the record ID is required.</value>
+    </labels>
+    <labels>
+        <fullName>To_edit_a_record_the_record_ID_is_required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To edit a record, the record ID is required.</shortDescription>
+        <value>To edit a record, the record ID is required.</value>
+    </labels>
+    <labels>
+        <fullName>You_can_either_view_the_record_or_clone_it</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You can either view the record or clone it.</shortDescription>
+        <value>You can either view the record or clone it.</value>
+    </labels>
+    <labels>
+        <fullName>You_have_the_choice_to_either_edit_the_record_or_clone_it</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have the choice to either edit the record or clone it.</shortDescription>
+        <value>You have the choice to either edit the record or clone it.</value>
+    </labels>
+    <labels>
+        <fullName>You_have_the_option_to_either_edit_the_record_or_view_it</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have the option to either edit the record or view it.</shortDescription>
+        <value>You have the option to either edit the record or view it.</value>
+    </labels>
+    <labels>
+        <fullName>provide_api_name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>provide api name</shortDescription>
+        <value>Kindly provide the API names for the fields for the data table or specify the field set name.</value>
+    </labels>
+</CustomLabels>
