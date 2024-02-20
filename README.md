@@ -1,18 +1,15 @@
-# Salesforce DX Project: Next Steps
+🎯 Key Features:
+1️⃣ Generic Fields: Customize the fields displayed on the form using either field sets or field API names. Flexibility at its finest!
+2️⃣ Edit Record: Effortlessly modify existing records directly within the form. Say goodbye to cumbersome navigation and hello to seamless editing!
+3️⃣ Create New Record: Empower users to add new records directly from the form, enhancing efficiency.
+4️⃣ Clone a Record: Duplicate records with ease, saving time and effort when dealing with repetitive tasks.
+5️⃣ View Only Mode: Enable view-only mode for users who need access to information without the ability to edit. Enhance data security and control.
+6️⃣ Navigation to Record: Easily navigate to related records directly from the form, improving usability and user experience.
+7️⃣ Display Console Log: Debug and troubleshoot with ease by enabling console log display within the form. Streamline development and maintenance.
+8️⃣ Customizable Header: Personalize the header of your form to reflect your organization's branding or specific requirements. Make it uniquely yours!
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-## How Do You Plan to Deploy Your Changes?
+![Uploading Screenshot from 2024-02-20 18-52-40.png…]()
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+![Screenshot from 2024-02-20 18-53-52](https://github.com/Himanshu987399/RecordEditForm/assets/86918713/2cae5270-5dd5-498e-bba6-2f2821a75ac3)
